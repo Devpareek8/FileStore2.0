@@ -79,7 +79,7 @@ except ValueError:
 #Force sub message 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
 
-#set your Custom Caption here, "True"
+#set your Custom Caption here, "False"
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", """Dev<b><a href="https://t.me/+f3iO8EMm5U0wMWZl">{file_name}</a>""")
 
 #set True if you want to prevent users from forwarding files from bot
